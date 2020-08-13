@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
+
+# Basic Settings
 plugins:
   - jekyll-relative-links
 relativ_links:
@@ -13,3 +15,12 @@ include:
   - CONTRIBUTING.md
   - ISSUES_TEMPLATE.md
   - PULL_REQUEST_TEMPLATE.md
+
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               : &facebook
+  app_id                 :
+  publisher              :
+og_image                 :  # Open Graph/Twitter default site image
