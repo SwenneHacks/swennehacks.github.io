@@ -43,7 +43,12 @@
       <a class="active" href="#home">Home</a>
       <a href="page.html">Countdown</a>
       <a href="contact.html">Contact</a>
-      <div class="topnav-right">
+    <div class="topnav-right">
+        <p>Date/Time: <span id="datetime"></span></p>
+         <script>
+           var dt = new Date();
+           document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+       </script> 
         <a href="#search">Search</a>
         <a href="about.html">About</a>
       </div>
